@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Widiya Sari — personal portfolio, journey, hobbies, dreams and projects.">
+<title>Widiya Sari — My Little Universe</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div class="loader-mark">WS</div><p>loading my universe...</p></div>
+<div class="cursor-dot"></div>
+<div class="cursor-ring"></div>
+
+<header class="navbar" id="navbar">
+  <a class="brand" href="#home">WS<span>.</span></a>
+  <nav id="navLinks">
+    <a href="#about">About</a><a href="#journey">Journey</a><a href="#hobbies">Hobbies</a>
+    <a href="#favorites">Favorites</a><a href="#projects">Projects</a><a href="#dreams">Dreams</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☾</button>
+  <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+</header>
+
+<main>
+<section class="hero section" id="home">
+  <div class="hero-copy reveal">
+    <div class="eyebrow"><span></span> welcome to my little universe</div>
+    <h1>Hi, I'm <em>Widiya.</em></h1>
+    <p class="hero-tagline" id="tagline"></p>
+    <p class="hero-intro" id="intro"></p>
+    <div class="hero-actions"><a href="#about" class="btn btn-primary">Explore my world ↓</a><a href="#projects" class="btn btn-ghost">See my projects</a></div>
+    <div class="mini-stats"><div><strong>∞</strong><span>curiosity</span></div><div><strong>+</strong><span>ideas</span></div><div><strong>01</strong><span>journey</span></div></div>
+  </div>
+  <div class="hero-visual reveal">
+    <div class="portrait-frame">
+      <div class="portrait-placeholder">
+        <span>your photo</span><small>replace this image in the HTML</small>
+      </div>
+      <div class="sticker sticker-1">✦ dreamer</div>
+      <div class="sticker sticker-2">♡</div>
+      <div class="sticker sticker-3">stay curious</div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+<div class="section-head reveal"><div><span class="section-number">01 / about</span><h2>A little more <em>about me.</em></h2></div><p>Not a perfect biography — just little pieces of who I am, what I enjoy, and where I'm going.</p></div>
+<div class="about-grid">
+  <div class="about-card paper reveal"><span class="card-label">hello, it's me</span><h3 id="bioName"></h3><p id="bioText"></p><div class="facts"><div><span>Based in</span><b id="location"></b></div><div><span>Education</span><b id="education"></b></div></div></div>
+  <div class="about-card quote-card reveal"><span class="quote-mark">“</span><p id="motto"></p><span class="quote-author">— Widiya</span></div>
+  <div class="about-card personality reveal"><span class="card-label">my vibe</span><div class="tag-cloud"><span>curious</span><span>creative</span><span>reflective</span><span>independent</span><span>learning-minded</span><span>dreamer</span><span>story lover</span><span>digital explorer</span></div></div>
+</div>
+</section>
+
+<section class="section tinted" id="journey">
+<div class="section-head reveal"><div><span class="section-number">02 / journey</span><h2>Still <em>becoming.</em></h2></div><p>Every chapter doesn't need to be perfect to be worth remembering.</p></div>
+<div class="timeline" id="journeyList"></div>
+</section>
+
+<section class="section" id="hobbies">
+<div class="section-head reveal"><div><span class="section-number">03 / hobbies</span><h2>Things I love <em>doing.</em></h2></div></div>
+<div class="card-grid hobby-grid" id="hobbiesList"></div>
+</section>
+
+<section class="section tinted" id="favorites">
+<div class="section-head reveal"><div><span class="section-number">04 / favorites</span><h2>Little things I <em>like.</em></h2></div></div>
+<div class="favorite-grid" id="favoritesList"></div>
+</section>
+
+<section class="section" id="idols">
+<div class="section-head reveal"><div><span class="section-number">05 / inspirations</span><h2>People who <em>inspire me.</em></h2></div><p>Keep this section personal — add, remove, or edit anyone you admire.</p></div>
+<div class="idol-grid" id="idolsList"></div>
+</section>
+
+<section class="section tinted" id="dreams">
+<div class="section-head reveal"><div><span class="section-number">06 / dreams</span><h2>Where I'm <em>headed.</em></h2></div></div>
+<div class="dream-grid" id="dreamsList"></div>
+</section>
+
+<section class="section" id="skills">
+<div class="section-head reveal"><div><span class="section-number">07 / skills</span><h2>Things I'm <em>learning.</em></h2></div><p>These are works in progress — skills grow with practice.</p></div>
+<div class="skills-wrap" id="skillsList"></div>
+</section>
+
+<section class="section tinted" id="projects">
+<div class="section-head reveal"><div><span class="section-number">08 / projects</span><h2>Things I've <em>created.</em></h2></div></div>
+<div class="filters" id="projectFilters"><button class="active" data-filter="all">All</button><button data-filter="Web">Web</button><button data-filter="Education">Education</button><button data-filter="Science">Science</button><button data-filter="Productivity">Productivity</button><button data-filter="Design">Design</button></div>
+<div class="project-grid" id="projectsList"></div>
+</section>
+
+<section class="section" id="currently">
+<div class="section-head reveal"><div><span class="section-number">09 / currently</span><h2>Right <em>now.</em></h2></div></div>
+<div class="currently-grid" id="currentlyList"></div>
+</section>
+
+<section class="section tinted fun-section">
+<div class="fun-box reveal"><div><span class="section-number">10 / random</span><h2>Tell me something <em>random.</em></h2><p>Click the button. You might get a tiny fact, thought, or reminder.</p></div><button class="fun-button" id="funFactBtn">✨ surprise me</button><div class="fun-result" id="funResult">Your random fact will appear here.</div></div>
+</section>
+
+<section class="section gallery-section" id="gallery">
+<div class="section-head reveal"><div><span class="section-number">11 / photo wall</span><h2>Moments worth <em>keeping.</em></h2></div><p>Replace these placeholders with your own photos.</p></div>
+<div class="photo-grid">
+  <div class="photo-placeholder tall"><span>photo 01</span></div><div class="photo-placeholder"><span>photo 02</span></div>
+  <div class="photo-placeholder"><span>photo 03</span></div><div class="photo-placeholder wide"><span>photo 04</span></div>
+  <div class="photo-placeholder"><span>photo 05</span></div><div class="photo-placeholder tall"><span>photo 06</span></div>
+</div>
+</section>
+
+<section class="section contact-section" id="contact">
+<div class="contact-inner reveal">
+  <span class="section-number">12 / say hello</span><h2>Let's keep in <em>touch.</em></h2>
+  <p>If you'd like to connect, collaborate, or simply say hi, find me here.</p>
+  <div class="socials"><a id="igLink" href="#" target="_blank">Instagram ↗</a><a id="ghLink" href="#" target="_blank">GitHub ↗</a><a id="emailLink" href="mailto:hello@example.com">Email ↗</a></div>
+</div>
+</section>
+</main>
+
+<footer><div class="brand">WS<span>.</span></div><p>made with curiosity & a little bit of chaos ♡</p><p>© <span id="year"></span> Widiya Sari</p></footer>
+<button id="topBtn" class="top-btn" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>

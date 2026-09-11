@@ -1,0 +1,257 @@
+{
+  "profile": {
+    "name": "Widiya Sari",
+    "tagline": "Student • Dreamer • Creator • Learner",
+    "intro": "Welcome to my little universe — a space for my journey, interests, dreams, projects, and the little things that make me, me.",
+    "location": "Indonesia",
+    "education": "SMA • Modern Pesantren",
+    "motto": "Keep learning, keep creating, keep becoming.",
+    "bio": "A curious student who enjoys learning new things, creating digital projects, exploring ideas, and collecting meaningful memories along the way."
+  },
+  "journey": [
+    {
+      "year": "Childhood",
+      "title": "Little Dreams",
+      "text": "A time of trying different interests and imagining many possible futures.",
+      "icon": "🌱"
+    },
+    {
+      "year": "SMP",
+      "title": "A New Chapter",
+      "text": "Started a new learning journey and discovered more interests through school and pesantren life.",
+      "icon": "📚"
+    },
+    {
+      "year": "SMA",
+      "title": "Growing & Exploring",
+      "text": "Learning, creating projects, joining activities, and figuring out what kind of future feels meaningful.",
+      "icon": "🕌"
+    },
+    {
+      "year": "Today",
+      "title": "Building My Skills",
+      "text": "Exploring technology, design, science, writing, and new opportunities.",
+      "icon": "💻"
+    },
+    {
+      "year": "Future",
+      "title": "Dream Bigger",
+      "text": "Keep learning, build useful things, help people, and explore opportunities beyond my comfort zone.",
+      "icon": "🚀"
+    }
+  ],
+  "hobbies": [
+    {
+      "icon": "📖",
+      "title": "Reading",
+      "text": "Stories, history, biographies, and anything that makes me curious."
+    },
+    {
+      "icon": "🎨",
+      "title": "Designing",
+      "text": "Playing with layouts, colors, visuals, and creative ideas."
+    },
+    {
+      "icon": "💻",
+      "title": "Web & Tech",
+      "text": "Learning HTML, CSS, JavaScript, JSON, and building little web experiments."
+    },
+    {
+      "icon": "✍️",
+      "title": "Writing",
+      "text": "Turning ideas, experiences, and reflections into words."
+    },
+    {
+      "icon": "🕌",
+      "title": "Islamic History",
+      "text": "Exploring stories and lessons from Islamic history and the lives of inspiring people."
+    },
+    {
+      "icon": "📸",
+      "title": "Content & Memories",
+      "text": "Collecting moments and turning them into visual stories."
+    }
+  ],
+  "favorites": [
+    {
+      "icon": "🎨",
+      "label": "Colors",
+      "value": "Cream • Cocoa • Maroon • Soft Green"
+    },
+    {
+      "icon": "🌿",
+      "label": "Aesthetic",
+      "value": "Modern minimalist vintage"
+    },
+    {
+      "icon": "📚",
+      "label": "Reading",
+      "value": "History, stories & inspiring biographies"
+    },
+    {
+      "icon": "💻",
+      "label": "Creative space",
+      "value": "Canva, websites & digital projects"
+    },
+    {
+      "icon": "☕",
+      "label": "Little things",
+      "value": "Cozy layouts, playlists & quiet moments"
+    },
+    {
+      "icon": "🌏",
+      "label": "Dream destination",
+      "value": "Places where I can learn and grow"
+    }
+  ],
+  "idols": [
+    {
+      "name": "Tian Xiwei",
+      "role": "Actress",
+      "country": "China",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=80",
+      "reason": "Admired for her bright energy, expressive acting, and charming presence.",
+      "link": "https://en.wikipedia.org/wiki/Tian_Xiwei"
+    },
+    {
+      "name": "My inspirations",
+      "role": "People who inspire me",
+      "country": "Everywhere",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=900&q=80",
+      "reason": "I find inspiration in people who keep learning, create meaningful work, and stay kind."
+    }
+  ],
+  "dreams": [
+    {
+      "icon": "🎓",
+      "title": "Education",
+      "text": "Keep growing academically and find a university path that fits my interests and strengths."
+    },
+    {
+      "icon": "🌏",
+      "title": "Go Further",
+      "text": "Experience international opportunities, learn from different cultures, and broaden my perspective."
+    },
+    {
+      "icon": "💼",
+      "title": "Meaningful Career",
+      "text": "Build a career that is useful, challenging, flexible, and lets me keep learning."
+    },
+    {
+      "icon": "🤍",
+      "title": "Help People",
+      "text": "Use my knowledge and skills to make a positive difference, even through small things."
+    },
+    {
+      "icon": "💡",
+      "title": "Create",
+      "text": "Make useful digital projects, stories, designs, and ideas that people can actually use."
+    },
+    {
+      "icon": "📚",
+      "title": "Never Stop Learning",
+      "text": "Keep exploring new subjects instead of being afraid of starting from zero."
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": 70
+    },
+    {
+      "name": "CSS",
+      "level": 65
+    },
+    {
+      "name": "JavaScript",
+      "level": 45
+    },
+    {
+      "name": "JSON",
+      "level": 55
+    },
+    {
+      "name": "Canva & Visual Design",
+      "level": 75
+    },
+    {
+      "name": "Writing & Storytelling",
+      "level": 70
+    },
+    {
+      "name": "Presentation",
+      "level": 65
+    },
+    {
+      "name": "Creative Problem Solving",
+      "level": 70
+    }
+  ],
+  "projects": [
+    {
+      "title": "Personal Web Experiments",
+      "category": "Web",
+      "icon": "🌐",
+      "text": "Small responsive websites created while learning HTML, CSS, JavaScript, and JSON.",
+      "tools": "HTML • CSS • JS • JSON"
+    },
+    {
+      "title": "Sirah Sahabiyah",
+      "category": "Education",
+      "icon": "🕌",
+      "text": "A web concept for exploring the stories of female companions and lesser-known figures from Islamic history.",
+      "tools": "HTML • CSS • JS • JSON"
+    },
+    {
+      "title": "AGROSORB",
+      "category": "Science",
+      "icon": "🧪",
+      "text": "A science-project concept exploring coconut-shell-based bio-adsorbent for sustainable water purification.",
+      "tools": "Research • Science • Presentation"
+    },
+    {
+      "title": "Digital Journal",
+      "category": "Productivity",
+      "icon": "📔",
+      "text": "A personal journal and habit-tracking concept with mood, tasks, calendar, and local saving.",
+      "tools": "HTML • CSS • JS • LocalStorage"
+    },
+    {
+      "title": "Creative Content",
+      "category": "Design",
+      "icon": "🎨",
+      "text": "Visual storytelling experiments for social media, school activities, and personal projects.",
+      "tools": "Canva • Design • Storytelling"
+    }
+  ],
+  "currently": [
+    {
+      "label": "Learning",
+      "value": "Web development & creative skills"
+    },
+    {
+      "label": "Exploring",
+      "value": "Future study and career possibilities"
+    },
+    {
+      "label": "Creating",
+      "value": "Personal websites & visual content"
+    },
+    {
+      "label": "Dreaming",
+      "value": "International experiences and meaningful work"
+    }
+  ],
+  "funFacts": [
+    "I can spend way too long choosing the perfect color palette.",
+    "I like turning ideas into websites instead of leaving them as ideas.",
+    "I enjoy discovering stories about people who are not always in the spotlight.",
+    "A good aesthetic can make studying feel a little more fun.",
+    "I believe starting from zero is still starting."
+  ],
+  "social": {
+    "instagram": "#",
+    "github": "#",
+    "email": "mailto:hello@example.com"
+  }
+}
