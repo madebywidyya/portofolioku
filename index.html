@@ -18,8 +18,13 @@
 <header class="navbar" id="navbar">
   <a class="brand" href="#home">WS<span>.</span></a>
   <nav id="navLinks">
-    <a href="#about">About</a><a href="#journey">Journey</a><a href="#hobbies">Hobbies</a>
-    <a href="#favorites">Favorites</a><a href="#projects">Projects</a><a href="#dreams">Dreams</a>
+    <a href="#about">About</a>
+    <a href="#journey">Journey</a>
+    <a href="#hobbies">Hobbies</a>
+    <a href="#favorites">Favorites</a>
+    <a href="#projects">Projects</a>
+    <a href="#dreams">Dreams</a>
+    <a href="#guestbook">Guestbook</a>
     <a href="#contact">Contact</a>
   </nav>
   <button class="icon-btn" id="themeToggle" aria-label="Toggle theme">☾</button>
@@ -27,20 +32,26 @@
 </header>
 
 <main>
+<!-- HERO -->
 <section class="hero section" id="home">
   <div class="hero-copy reveal">
     <div class="eyebrow"><span></span> welcome to my little universe</div>
     <h1>Hi, I'm <em>Widiya.</em></h1>
-    <p class="hero-tagline" id="tagline"></p>
-    <p class="hero-intro" id="intro"></p>
-    <div class="hero-actions"><a href="#about" class="btn btn-primary">Explore my world ↓</a><a href="#projects" class="btn btn-ghost">See my projects</a></div>
-    <div class="mini-stats"><div><strong>∞</strong><span>curiosity</span></div><div><strong>+</strong><span>ideas</span></div><div><strong>01</strong><span>journey</span></div></div>
+    <p class="hero-tagline" id="tagline">Student • Dreamer • Creator • Learner</p>
+    <p class="hero-intro" id="intro">Welcome to my little universe — a space for my journey, interests, dreams, projects, and the little things that make me, me.</p>
+    <div class="hero-actions">
+      <a href="#about" class="btn btn-primary">Explore my world ↓</a>
+      <a href="#projects" class="btn btn-ghost">See my projects</a>
+    </div>
+    <div class="mini-stats">
+      <div><strong>∞</strong><span>curiosity</span></div>
+      <div><strong>+</strong><span>ideas</span></div>
+      <div><strong id="visitCount">—</strong><span>visitors</span></div>
+    </div>
   </div>
   <div class="hero-visual reveal">
     <div class="portrait-frame">
-      <div class="portrait-placeholder">
-        <span>your photo</span><small>replace this image in the HTML</small>
-      </div>
+      <img src="ftprofil.jpg" alt="Widiya Sari" class="portrait-img" id="profilePhoto">
       <div class="sticker sticker-1">✦ dreamer</div>
       <div class="sticker sticker-2">♡</div>
       <div class="sticker sticker-3">stay curious</div>
@@ -48,80 +59,205 @@
   </div>
 </section>
 
+<!-- ABOUT -->
 <section class="section" id="about">
-<div class="section-head reveal"><div><span class="section-number">01 / about</span><h2>A little more <em>about me.</em></h2></div><p>Not a perfect biography — just little pieces of who I am, what I enjoy, and where I'm going.</p></div>
-<div class="about-grid">
-  <div class="about-card paper reveal"><span class="card-label">hello, it's me</span><h3 id="bioName"></h3><p id="bioText"></p><div class="facts"><div><span>Based in</span><b id="location"></b></div><div><span>Education</span><b id="education"></b></div></div></div>
-  <div class="about-card quote-card reveal"><span class="quote-mark">“</span><p id="motto"></p><span class="quote-author">— Widiya</span></div>
-  <div class="about-card personality reveal"><span class="card-label">my vibe</span><div class="tag-cloud"><span>curious</span><span>creative</span><span>reflective</span><span>independent</span><span>learning-minded</span><span>dreamer</span><span>story lover</span><span>digital explorer</span></div></div>
-</div>
+  <div class="section-head reveal">
+    <div><span class="section-number">01 / about</span><h2>A little more <em>about me.</em></h2></div>
+    <p>Not a perfect biography — just little pieces of who I am, what I enjoy, and where I'm going.</p>
+  </div>
+  <div class="about-grid">
+    <div class="about-card paper reveal">
+      <span class="card-label">hello, it's me</span>
+      <h3 id="bioName">Widiya Sari</h3>
+      <p id="bioText">A curious student who enjoys learning new things, creating digital projects, exploring ideas, and collecting meaningful memories along the way.</p>
+      <div class="facts">
+        <div><span>Based in</span><b id="location">Indonesia</b></div>
+        <div><span>Education</span><b id="education">SMA • Modern Pesantren</b></div>
+      </div>
+    </div>
+    <div class="about-card quote-card reveal">
+      <span class="quote-mark">“</span>
+      <p id="motto">Keep learning, keep creating, keep becoming.</p>
+      <span class="quote-author">— Widiya</span>
+    </div>
+    <div class="about-card personality reveal">
+      <span class="card-label">my vibe</span>
+      <div class="tag-cloud" id="personalityTags">
+        <span>curious</span><span>creative</span><span>reflective</span><span>independent</span>
+        <span>learning-minded</span><span>dreamer</span><span>story lover</span><span>digital explorer</span>
+      </div>
+    </div>
+  </div>
 </section>
 
+<!-- JOURNEY -->
 <section class="section tinted" id="journey">
-<div class="section-head reveal"><div><span class="section-number">02 / journey</span><h2>Still <em>becoming.</em></h2></div><p>Every chapter doesn't need to be perfect to be worth remembering.</p></div>
-<div class="timeline" id="journeyList"></div>
+  <div class="section-head reveal">
+    <div><span class="section-number">02 / journey</span><h2>Still <em>becoming.</em></h2></div>
+    <p>Every chapter doesn't need to be perfect to be worth remembering.</p>
+  </div>
+  <div class="timeline" id="journeyList"></div>
 </section>
 
+<!-- HOBBIES -->
 <section class="section" id="hobbies">
-<div class="section-head reveal"><div><span class="section-number">03 / hobbies</span><h2>Things I love <em>doing.</em></h2></div></div>
-<div class="card-grid hobby-grid" id="hobbiesList"></div>
+  <div class="section-head reveal">
+    <div><span class="section-number">03 / hobbies</span><h2>Things I love <em>doing.</em></h2></div>
+  </div>
+  <div class="card-grid hobby-grid" id="hobbiesList"></div>
 </section>
 
+<!-- FAVORITES -->
 <section class="section tinted" id="favorites">
-<div class="section-head reveal"><div><span class="section-number">04 / favorites</span><h2>Little things I <em>like.</em></h2></div></div>
-<div class="favorite-grid" id="favoritesList"></div>
+  <div class="section-head reveal">
+    <div><span class="section-number">04 / favorites</span><h2>Little things I <em>like.</em></h2></div>
+  </div>
+  <div class="favorite-grid" id="favoritesList"></div>
 </section>
 
+<!-- IDOLS -->
 <section class="section" id="idols">
-<div class="section-head reveal"><div><span class="section-number">05 / inspirations</span><h2>People who <em>inspire me.</em></h2></div><p>Keep this section personal — add, remove, or edit anyone you admire.</p></div>
-<div class="idol-grid" id="idolsList"></div>
+  <div class="section-head reveal">
+    <div><span class="section-number">05 / inspirations</span><h2>People who <em>inspire me.</em></h2></div>
+    <p>Keep this section personal — add, remove, or edit anyone you admire.</p>
+  </div>
+  <div class="idol-grid" id="idolsList"></div>
 </section>
 
+<!-- DREAMS -->
 <section class="section tinted" id="dreams">
-<div class="section-head reveal"><div><span class="section-number">06 / dreams</span><h2>Where I'm <em>headed.</em></h2></div></div>
-<div class="dream-grid" id="dreamsList"></div>
+  <div class="section-head reveal">
+    <div><span class="section-number">06 / dreams</span><h2>Where I'm <em>headed.</em></h2></div>
+  </div>
+  <div class="dream-grid" id="dreamsList"></div>
 </section>
 
+<!-- SKILLS -->
 <section class="section" id="skills">
-<div class="section-head reveal"><div><span class="section-number">07 / skills</span><h2>Things I'm <em>learning.</em></h2></div><p>These are works in progress — skills grow with practice.</p></div>
-<div class="skills-wrap" id="skillsList"></div>
+  <div class="section-head reveal">
+    <div><span class="section-number">07 / skills</span><h2>Things I'm <em>learning.</em></h2></div>
+    <p>These are works in progress — skills grow with practice.</p>
+  </div>
+  <div class="skills-wrap" id="skillsList"></div>
 </section>
 
+<!-- PROJECTS -->
 <section class="section tinted" id="projects">
-<div class="section-head reveal"><div><span class="section-number">08 / projects</span><h2>Things I've <em>created.</em></h2></div></div>
-<div class="filters" id="projectFilters"><button class="active" data-filter="all">All</button><button data-filter="Web">Web</button><button data-filter="Education">Education</button><button data-filter="Science">Science</button><button data-filter="Productivity">Productivity</button><button data-filter="Design">Design</button></div>
-<div class="project-grid" id="projectsList"></div>
+  <div class="section-head reveal">
+    <div><span class="section-number">08 / projects</span><h2>Things I've <em>created.</em></h2></div>
+  </div>
+  <div class="filters" id="projectFilters">
+    <button class="active" data-filter="all">All</button>
+    <button data-filter="Web">Web</button>
+    <button data-filter="Education">Education</button>
+    <button data-filter="Science">Science</button>
+    <button data-filter="Productivity">Productivity</button>
+    <button data-filter="Design">Design</button>
+  </div>
+  <div class="project-grid" id="projectsList"></div>
 </section>
 
+<!-- CURRENTLY -->
 <section class="section" id="currently">
-<div class="section-head reveal"><div><span class="section-number">09 / currently</span><h2>Right <em>now.</em></h2></div></div>
-<div class="currently-grid" id="currentlyList"></div>
+  <div class="section-head reveal">
+    <div><span class="section-number">09 / currently</span><h2>Right <em>now.</em></h2></div>
+  </div>
+  <div class="currently-grid" id="currentlyList"></div>
 </section>
 
+<!-- FUN FACTS -->
 <section class="section tinted fun-section">
-<div class="fun-box reveal"><div><span class="section-number">10 / random</span><h2>Tell me something <em>random.</em></h2><p>Click the button. You might get a tiny fact, thought, or reminder.</p></div><button class="fun-button" id="funFactBtn">✨ surprise me</button><div class="fun-result" id="funResult">Your random fact will appear here.</div></div>
+  <div class="fun-box reveal">
+    <div>
+      <span class="section-number">10 / random</span>
+      <h2>Tell me something <em>random.</em></h2>
+      <p>Click the button. You might get a tiny fact, thought, or reminder.</p>
+    </div>
+    <button class="fun-button" id="funFactBtn">✨ surprise me</button>
+    <div class="fun-result" id="funResult">Your random fact will appear here.</div>
+  </div>
 </section>
 
+<!-- GALLERY -->
 <section class="section gallery-section" id="gallery">
-<div class="section-head reveal"><div><span class="section-number">11 / photo wall</span><h2>Moments worth <em>keeping.</em></h2></div><p>Replace these placeholders with your own photos.</p></div>
-<div class="photo-grid">
-  <div class="photo-placeholder tall"><span>photo 01</span></div><div class="photo-placeholder"><span>photo 02</span></div>
-  <div class="photo-placeholder"><span>photo 03</span></div><div class="photo-placeholder wide"><span>photo 04</span></div>
-  <div class="photo-placeholder"><span>photo 05</span></div><div class="photo-placeholder tall"><span>photo 06</span></div>
-</div>
+  <div class="section-head reveal">
+    <div><span class="section-number">11 / photo wall</span><h2>Moments worth <em>keeping.</em></h2></div>
+    <p>Photos from my little universe.</p>
+  </div>
+  <div class="photo-grid" id="galleryList"></div>
 </section>
 
+<!-- GUESTBOOK -->
+<section class="section tinted" id="guestbook">
+  <div class="section-head reveal">
+    <div><span class="section-number">12 / guestbook</span><h2>Leave a <em>message.</em></h2></div>
+    <p>Say hi, share a thought, or just drop a little note. I'll read every single one.</p>
+  </div>
+  <div class="guestbook-wrap">
+    <form class="guestbook-form reveal" id="guestbookForm">
+      <div class="form-row">
+        <input type="text" id="gbName" placeholder="Your name" required maxlength="40">
+        <button type="submit" class="btn btn-primary">Send message</button>
+      </div>
+      <textarea id="gbMessage" placeholder="Write something nice..." required maxlength="300" rows="3"></textarea>
+      <p class="form-note" id="gbStatus"></p>
+    </form>
+    <div class="messages-list" id="messagesList">
+      <p class="empty-msg">No messages yet. Be the first!</p>
+    </div>
+  </div>
+</section>
+
+<!-- SUPPORT / QRIS -->
+<section class="section" id="support">
+  <div class="section-head reveal">
+    <div><span class="section-number">13 / support</span><h2>Support my <em>journey.</em></h2></div>
+    <p>If you want to support my learning and projects, you can scan the QRIS below. Every little bit means a lot 🤍</p>
+  </div>
+  <div class="support-box reveal">
+    <img src="qris.jpg" alt="QRIS Yayasan Daarul Hasanah" class="qris-img" id="qrisImage">
+    <div class="support-info">
+      <h3>QRIS</h3>
+      <p>Scan with any e-wallet or banking app that supports QRIS.</p>
+      <p class="support-note">Thank you for the kindness ✨</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
 <section class="section contact-section" id="contact">
-<div class="contact-inner reveal">
-  <span class="section-number">12 / say hello</span><h2>Let's keep in <em>touch.</em></h2>
-  <p>If you'd like to connect, collaborate, or simply say hi, find me here.</p>
-  <div class="socials"><a id="igLink" href="#" target="_blank">Instagram ↗</a><a id="ghLink" href="#" target="_blank">GitHub ↗</a><a id="emailLink" href="mailto:hello@example.com">Email ↗</a></div>
-</div>
+  <div class="contact-inner reveal">
+    <span class="section-number">14 / say hello</span>
+    <h2>Let's keep in <em>touch.</em></h2>
+    <p>If you'd like to connect, collaborate, or simply say hi, find me here — or send a direct message below.</p>
+
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <input type="text" id="ctName" placeholder="Your name" required maxlength="50">
+        <input type="email" id="ctEmail" placeholder="Your email" required>
+      </div>
+      <textarea id="ctMessage" placeholder="Your message..." required maxlength="500" rows="4"></textarea>
+      <button type="submit" class="btn btn-primary">Send message</button>
+      <p class="form-note" id="ctStatus"></p>
+    </form>
+
+    <div class="socials">
+      <a id="igLink" href="#" target="_blank" rel="noopener">Instagram ↗</a>
+      <a id="ghLink" href="#" target="_blank" rel="noopener">GitHub ↗</a>
+      <a id="emailLink" href="mailto:hello@example.com">Email ↗</a>
+    </div>
+  </div>
 </section>
 </main>
 
-<footer><div class="brand">WS<span>.</span></div><p>made with curiosity & a little bit of chaos ♡</p><p>© <span id="year"></span> Widiya Sari</p></footer>
+<footer>
+  <div class="brand">WS<span>.</span></div>
+  <p>made with curiosity & a little bit of chaos ♡</p>
+  <p>© <span id="year"></span> Widiya Sari</p>
+</footer>
 <button id="topBtn" class="top-btn" aria-label="Back to top">↑</button>
+
+<script src="config.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
