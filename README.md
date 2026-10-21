@@ -149,3 +149,24 @@ Cukup buka Google Spreadsheet-nya:
 
 Dibuat dengan 🤍 untuk Widiya Sari  
 Keep learning, keep creating, keep becoming.
+
+
+---
+
+## Open Graph / Social Thumbnail (og:image)
+
+File  (1200×630 px) sudah disertakan agar thumbnail otomatis muncul saat link di-share ke WhatsApp, Instagram, Facebook, Twitter/X, LinkedIn, dll.
+
+Di  sudah ada meta tag Open Graph yang mengarah ke:
+`https://madebywidyya.github.io/portofolioku/og-image.jpg`
+
+URL absolut ini tetap bekerja baik untuk domain custom (vdysri.my.id) maupun GitHub Pages.
+
+**Tips:**
+- Setelah upload, tunggu beberapa menit lalu test share.
+- Kalau thumbnail tidak update, pakai tool debugger:
+  - Facebook: https://developers.facebook.com/tools/debug/
+  - Twitter/X: https://cards-dev.twitter.com/validator
+  - Atau clear cache di WhatsApp (share ulang).
+- Kalau custom domain sudah aktif sempurna, kamu bisa ganti URL image di index.html jadi `https://vdysri.my.id/og-image.jpg` kalau mau.
+
